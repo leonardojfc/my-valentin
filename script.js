@@ -1,14 +1,14 @@
 const messages = [
-  "¿Estás segura?",
-  "¿Realmente segura? 🤨",
-  "¿Completamente segura?",
+  "¿Estás segura, mi vida?",
+  "¿Realmente segura, mi amor? 🤨",
+  "¿Completamente segura, corazón?",
   "Por favor, piénsalo...",
   "¡Solo piénsalo un momento!",
   "Si dices que no, me entristecerás...",
-  "Me pondrás muy triste...",
-  "Me harás súper mega triste... 😢",
+  "Amor, me pondrás muy triste...",
+  "Cariño, me harás súper mega triste... 😢",
   "Bueno, ya no insistiré...",
-  "¡Mentira! ¡Di que sí, por favor! ❤️",
+  "¡Mentira! ¡Di que sí, ya pue! ❤️",
 ];
 
 let messageIndex = 0;
