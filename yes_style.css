@@ -1,24 +1,60 @@
+:root {
+  --primary-color: #ff4081;
+  --background-color: linear-gradient(135deg, #ffc2c7, #ffb3c6);
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f9e3e3;
-    font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: var(--background-color);
+  font-family: "Pacifico", cursive;
+  margin: 0;
+  overflow: hidden;
 }
 
 .container {
-    text-align: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  width: 90%;
 }
 
-.header_text {
-    font-size: 3em;
-    color: #d32f2f;
+.header-text {
+  font-size: 2.5em;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.gif_container img {
-    width: 100%; 
-    max-width: 500px; 
-    height: auto; 
+.celebration-gif {
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.love-message {
+  font-size: 1.5em;
+  color: var(--primary-color);
+  margin-top: 30px;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.celebration-gif {
+  animation: float 2s ease-in-out infinite;
 }
